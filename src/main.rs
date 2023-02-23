@@ -1,8 +1,5 @@
-use std::ops::ControlFlow;
-
-use vulkano::{library, VulkanLibrary, instance::{self, Instance, InstanceCreateInfo}};
-use winit::{event_loop::{self, EventLoop}, window::WindowBuilder, event::{WindowEvent, Event}};
-
+use vulkano::{VulkanLibrary, instance::{Instance, InstanceCreateInfo}};
+use winit::{event_loop::EventLoop, window::WindowBuilder, event::{WindowEvent, Event}};
 
 fn main() {
     let library = VulkanLibrary::new().expect("No local Vulkan Library/DLL!");
