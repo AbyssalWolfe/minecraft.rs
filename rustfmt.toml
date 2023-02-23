@@ -1,5 +1,5 @@
 brace_style = "PreferSameLine"
-hard_tabs = "true"
+hard_tabs = true
 newline_style = "Unix"
 trailing_comma = "Never"
-where_single_line = "true"
+where_single_line = true
